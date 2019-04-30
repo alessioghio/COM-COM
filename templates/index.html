@@ -1,0 +1,48 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+<!------ Bootstrap Snippets  ---------->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="price-table text-center" style="background-color: rgb(255, 255, 255); border-radius: 0px; border-width: 7px; border-style: solid; border-color: rgb(238, 238, 238); transition: all 0.3s ease; color: rgb(255, 255, 255); font-family: Lato, sans-serif; font-size: 16px;">
+	<div class="price-table-heading" style="color: rgb(51, 51, 51); background-image: initial; background-color: rgb(249, 249, 249); padding-top: 2px; padding-bottom: 2px; margin-bottom: 0px;">
+		<p style="margin-bottom: 10px; font-size: 30px; line-height: 1.3;">
+							Mi Lista Virtual
+		</p>
+	</div>
+	<div class="price-table-body" style="background-image: initial; background-color: rgb(230, 70, 36); padding-top: 10px; padding-bottom: 5px; transition: all 0.3s ease;">
+
+
+			<small style="font-size: 16px;">
+		<p style="margin-bottom: 10px; font-size: 20px; line-height: 1.3;">
+							COM&COM
+		</p>
+			</small>
+	</div>
+	<ul class="list-group" style="margin-bottom: 0px; padding-left: 15px; color: rgb(51, 51, 51);">
+			<small style="font-size: 16px;">
+		<p class="list-group-item-w" style="margin-bottom: 0px; margin-left: -15px; line-height: 1.3; padding-top: 5px; padding-bottom: 5px; border-radius: 0px; border-width: 0px; border-style: initial;">
+							Queso
+		</p>
+		<p class="list-group-item-g" style="margin-bottom: 0px; margin-left: -15px; line-height: 1.3; background-image: initial; background-color: rgb(249, 249, 249); padding-top: 5px; padding-bottom: 5px; border-radius: 0px; border-width: 0px; border-style: initial;">
+							Jamón
+		</p>
+		<p class="list-group-item-w" style="margin-bottom: 0px; margin-left: -15px; line-height: 1.3; padding-top: 5px; padding-bottom: 5px; border-radius: 0px; border-width: 0px; border-style: initial;">
+							Leche
+		</p>
+		<p class="list-group-item-g" style="margin-bottom: 0px; margin-left: -15px; line-height: 1.3; background-image: initial; background-color: rgb(249, 249, 249); padding-top: 5px; padding-bottom: 5px; border-radius: 0px; border-width: 0px; border-style: initial;">
+							Huevos
+		</p>
+		<p class="list-group-item-w" style="margin-bottom: 0px; margin-left: -15px; line-height: 1.3; padding-top: 5px; padding-bottom: 5px; border-radius: 0px; border-width: 0px; border-style: initial;">
+							Arroz
+		</small>
+	</ul>
+</div>
+<div>
+<a href="/result" style="text-decoration:none"><span style="float: right" class="btn btn-success btn-lg">¡Encontrar los mejores precios!<i class="glyphicon glyphicon-ok"></i></span></a>
+</div>
+{% endblock %}
